@@ -2,6 +2,7 @@
 title: "demo_code"
 format: html
 editor: visual
+embed-resources: true
 ---
 
 I wrote this sweet code to work with the `nycflights13`data:
@@ -22,4 +23,3 @@ fast_flights = flights |>
   select(year:day, dep_time, carrier, flight, speed) |> 
   arrange(desc(speed))
 ```
-
